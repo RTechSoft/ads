@@ -112,5 +112,3 @@ WITH (
 );
 ALTER TABLE "User_Level"
   OWNER TO postgres;
-
-
