@@ -1,6 +1,6 @@
 -- Table: asset
 
--- DROP TABLE asset;
+DROP TABLE asset;
 
 CREATE TABLE asset
 (
@@ -23,7 +23,7 @@ ALTER TABLE asset
 
 -- Table: asset_ass
 
--- DROP TABLE asset_ass;
+DROP TABLE asset_ass;
 
 CREATE TABLE asset_ass
 (
@@ -40,7 +40,7 @@ ALTER TABLE asset_ass
 
 -- Table: asset_type
 
--- DROP TABLE asset_type;
+DROP TABLE asset_type;
 
 CREATE TABLE asset_type
 (
@@ -58,7 +58,7 @@ ALTER TABLE asset_type
 
 -- Table: request
 
--- DROP TABLE request;
+DROP TABLE request;
 
 CREATE TABLE request
 (
@@ -80,7 +80,7 @@ ALTER TABLE request
 
 -- Table: "user"
 
--- DROP TABLE "user";
+DROP TABLE "user";
 
 CREATE TABLE "user"
 (
@@ -98,7 +98,7 @@ ALTER TABLE "user"
 
 -- Table: user_level
 
--- DROP TABLE user_level;
+DROP TABLE user_level;
 
 CREATE TABLE user_level
 (

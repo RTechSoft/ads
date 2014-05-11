@@ -106,4 +106,9 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+	
+	public function actionSubmit_request(){
+		$sql = 'INSERT INTO request () VALUES ()';
+		print_r($_POST);
+	}
 }

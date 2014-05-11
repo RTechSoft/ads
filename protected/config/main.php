@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'ADS',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -48,7 +48,11 @@ return array(
 		),
 		*/
 		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+	        'tablePrefix'=>'',
+	        'connectionString' => 'pgsql:host=localhost;port=5432;dbname=ready',
+	        'username'=>'postgres',
+	        'password'=>'t3st3r',
+	        'charset'=>'UTF8',
 		),
 		// uncomment the following to use a MySQL database
 		/*
